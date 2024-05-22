@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-renderriftnodes"
+description = "Nodes:RR_Date_Folder_Format, RR_Image_Metadata_Overlay, RR_VideoPathMetaExtraction, RR_DisplayMetaOptions. This extension provides nodes designed to enhance the Animatediff workflow."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["Pillow", "tinytag"]
+
+[project.urls]
+Repository = "https://github.com/RenderRift/ComfyUI-RenderRiftNodes"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-RenderRiftNodes"
+Icon = ""
